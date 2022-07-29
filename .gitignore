@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+log/
 develop-eggs/
 dist/
 downloads/
@@ -56,6 +57,9 @@ coverage.xml
 *.pot
 
 # Django stuff:
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 *.log
 local_settings.py
 db.sqlite3
@@ -105,7 +109,7 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+../venv/
 ENV/
 env.bak/
 venv.bak/
@@ -127,3 +131,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#VS code
+.vscode
+
+#PyCharm
+.idea/*
